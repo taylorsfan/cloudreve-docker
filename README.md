@@ -55,6 +55,8 @@ uid=1000(root) gid=1001(root)
 
 #### OC
 
+在启动之前需要预创建`conf.ini`和`cloudreve.db`文件，具体方法请参见CAC模式的Step5。
+
 ```bash
 docker run -d \
   --name cloudreve \
